@@ -1,7 +1,6 @@
 <template>
   <div class="border-4 border-blue-100 w-3/4 h-3/4 flex justify-center items-center flex-col">
     <vue-qrcode
-      ref="code"
       :value="text"
       :options="options"
     ></vue-qrcode>
